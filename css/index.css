@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  color: rgba(46, 47, 66, 1);
+}
+
+p {
+  color: rgba(67, 68, 85, 1);
+}
+
+header {
+  
+  height: 72px;
+  display: flex;
+  justify-content: inline;
+  align-items: center;
+  background-color: rgba(231, 233, 252, 1);
+}
+
+.logo {
+  text-decoration: none;
+  color: #2E2F42;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-right: 76px;
+  margin-left: 156px;
+}
+
+.Web {
+  color: #4D5AE5;
+}
+
+.navbar {
+  display: flex;
+  width: 500;
+}
+
+.studio {
+  margin-right: 40px;
+}
+
+.contacts {
+  margin-left: 40px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center; /* Выравниваем по горизонтали по центру */
+  align-items: center;; /* Убираем левый и правый отступ, и выравниваем по центру */
+  padding: 0;
+  line-height: 24px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: black;
+  line-height: 24px;
+}
+
+address {
+  margin-left: 332px;
+  margin-right: 156px;
+}
+
+address li {
+  display: inline-block;
+  justify-content: space-between;
+  padding-left: 40px;
+  align-items: center;
+}
+
+address a {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #434445;
+  text-decoration: none;
+  width: 152px;
+}
+
+.nav-menu li {
+  display: inline-block;
+}
+
+.nav-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;; /* Добавим отступ между logo и nav-div */
+}
+
+
+
+
+
+.h1-button {
+  justify-content: center;
+  color: #ffffff;
+  background-color: #2E2F42;
+  height: 600px;
+  display: block;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  padding: 188px 472px 48px 472px;
+  font-size: 56px;
+  line-height: 60px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background-color: rgba(77, 90, 229, 1);
+  margin: 0 auto 188px auto;
+  width: 170px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: rgba(174, 161, 216, 0.8);
+}
+
+.character {
+  padding: 120px 156px;
+  display: flex;
+}
+
+.character ul{
+  display: flex;
+}
+
+.character li {
+  padding-left: 24px;
+}
+
+.character li {
+  color: rgba(46, 47, 66, 1);
+}
+
+.character li p {
+  margin-top: 8px;
+}
+
+.OurTeam {
+  background-color: rgba(244, 244, 253, 1);
+}
+
+.OurTeam h2 {
+  display: flex;
+  justify-content: center;
+  padding: 120px 639px 72px 639px;
+  color: rgba(46, 47, 66, 1);
+}
+
+.OurTeam li h3 {
+  color: rgba(46, 47, 66, 1);
+}
+
+.OurTeam li p {
+  color: rgba(67, 68, 85, 1);
+}
+
+.OurTeam ul{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 156px 120px 156px;
+  padding-bottom: 120px;
+}
+
+.OurTeam ul {
+  padding-left: 24px;
+}
+
+.OurTeam li h3 {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.OurTeam li p {
+  justify-content: center;
+  display: flex;
+  margin: 8px auto 32px auto;
+}
+
+.OurTeam li {
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  filter: drop-shadow(0px 2px 1px rgba(46, 47, 66, 0.0064));
+}
+
+.OurPortfolio {
+  display: block;
+  justify-content: center;  
+}
+
+.OurPortfolio h2 {
+  display: flex;
+  justify-content: center;
+  line-height: 40px;
+  font-size: 36px;
+  margin-bottom: 72px;
+  color: rgba(46, 47, 66, 1);
+}
+
+.OurPortfolio .ul1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 156px;
+}
+
+.OurPortfolio .ul2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 156px 120px 156px;
+}
+
+.OurPortfolio li h3 {
+  margin: 32px auto 8px 16px;
+  line-height: 24px;
+  font-size: 20px;
+}
+
+.OurPortfolio li p {
+  margin: 0px auto 32px 16px;
+}
+
+.OurPortfolio li {
+  border: 1px solid rgba(231, 233, 252, 1);
+}
+
+footer {
+  background-color: rgba(46, 47, 66, 1);
+  height: 312px;
+  display: flex;
+}
+
+footer div {
+  margin: 100px auto 100px 156px;
+}
+
+footer p {
+  width: 264px;
+  display: block;
+  justify-content: left;
+  color: rgba(244, 244, 253, 1);
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.logo-footer {
+  text-decoration: none;
+  color: rgba(244, 244, 253, 1);
+  font-size: 18px;
+  line-height: 21px;
+}
