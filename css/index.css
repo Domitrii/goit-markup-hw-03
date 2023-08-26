@@ -52,8 +52,8 @@ header {
 
 .nav-menu {
   display: flex;
-  justify-content: center; /* Выравниваем по горизонтали по центру */
-  align-items: center;; /* Убираем левый и правый отступ, и выравниваем по центру */
+  justify-content: center;
+  align-items: center;
   padding: 0;
   line-height: 24px;
 }
@@ -91,7 +91,7 @@ address a {
 .nav-div {
   display: flex;
   justify-content: center;
-  align-items: center;; /* Добавим отступ между logo и nav-div */
+  align-items: center;
 }
 
 
