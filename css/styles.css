@@ -166,7 +166,17 @@
     background-color: #404BBF;
   }
   
-  
+
+
+
+
+  .section-two {
+    padding: 120px 0 ;
+  }
+
+  .strategy {
+    width: calc((100% - 72px) / 4);
+  }
   
   .strategy, .strategy-ot {
     font-weight: 500;
@@ -177,6 +187,7 @@
   }
   
   .strategy-p {
+    margin-bottom: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -191,13 +202,18 @@
     background-color: rgba(244, 244, 253, 1);
   }
   
-  .ourteam-htwo {
+  .visually-hidden {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: rgba(46, 47, 66, 1);
+  }
+
+  .ourteam-ul {
+    display: flex;
+    gap: 24px;
   }
 
   .ourteam-p {
