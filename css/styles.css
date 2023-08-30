@@ -19,15 +19,20 @@
     color: rgba(67, 68, 85, 1);
   }
   
-  header {
+  .header {
     display: flex;
     justify-content: inline;
     background-color: #ffffff;
     border-bottom: 1px solid rgba(231, 233, 252, 1) ;
   }
 
+  img {
+    display: block;
+  }
+
   .navbar {
     display: flex;
+    align-items: center;
   }
 
   .nav-menu{
@@ -37,9 +42,13 @@
 
   .container {
     display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
   
   .logo {
+    gap: 40px ;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     text-decoration: none;
@@ -63,6 +72,7 @@
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding-right: 40px;
+    padding: 24px 0
   }
   
   .studio:hover {
@@ -79,7 +89,8 @@
   }
 
   .address-ul {
-    display: inline-block;
+    display: flex;
+    gap: 40px;
   }
 
   .address-li {
