@@ -174,8 +174,12 @@
     padding: 120px 0 ;
   }
 
-  .strategy {
+  .lione {
     width: calc((100% - 72px) / 4);
+  }
+
+  .strategy {
+   margin-bottom: 8px;
   }
   
   .strategy, .strategy-ot {
