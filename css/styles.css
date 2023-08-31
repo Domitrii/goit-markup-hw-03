@@ -317,15 +317,19 @@
   
   .footer {
     background-color: rgba(46, 47, 66, 1);
+    padding: 100px 0;
   }
   
   .footer-p {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    max-width: 264px;
   }
   
   .logo-footer {
+    margin-bottom: 16px;
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     color: #4d5ae5;
