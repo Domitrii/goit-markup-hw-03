@@ -41,8 +41,12 @@
     gap: 40px;
   }
 
-  .container {
+  .header .container {
     display: flex;
+  }
+
+  .container {
+    display: block;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -341,8 +345,4 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-  }
-
-  .footer .container {
-    display: block;
   }
