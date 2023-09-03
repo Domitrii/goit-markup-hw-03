@@ -33,6 +33,7 @@
 
   .navbar {
     display: flex;
+    align-items: center;
   }
 
   .nav-menu{
@@ -45,16 +46,12 @@
     display: flex;
   }
 
-  .cont-head {
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    padding: 24px 0 24px 0;
-  }
 
   .container {
     display: block;
-    width: 100%;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
   
   .logo {
@@ -81,6 +78,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
   }
   
   .studio:hover {
@@ -136,6 +134,7 @@
     text-align: center;
     align-items: center;
     width: 100%;
+    padding: 188px 0;
   }
   
   
@@ -300,8 +299,7 @@
   
 
 .section-four {
-  padding-left: 156px;
-  padding-right: 156px;
+  padding: 120px 156px;
 }
 
   .bank-hthree {
@@ -364,7 +362,7 @@
   
   .footer {
     background-color: rgba(46, 47, 66, 1);
-    padding: 100px 0 100px 156px;
+    padding: 100px 0 100px 0;
   }
   
   .footer-p {
